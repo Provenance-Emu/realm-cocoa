@@ -110,7 +110,8 @@ GEM
     pathname (0.2.0)
     public_suffix (4.0.7)
     redcarpet (3.6.0)
-    rexml (3.2.6)
+    rexml (3.2.8)
+      strscan (>= 3.0.9)
     rouge (4.2.0)
     ruby-macho (2.5.1)
     ruby2_keywords (0.0.5)
@@ -121,6 +122,8 @@ GEM
       faraday (>= 0.17.3, < 3)
     sqlite3 (1.7.2-arm64-darwin)
     sqlite3 (1.7.2-x86_64-darwin)
+    sqlite3 (1.7.2-x86_64-linux)
+    strscan (3.1.0)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
@@ -140,6 +143,7 @@ PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   cocoapods
